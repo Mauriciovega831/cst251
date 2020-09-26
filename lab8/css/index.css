@@ -1,0 +1,54 @@
+body{
+    background-color: darkolivegreen;
+    padding: 25px;
+    font-size: 120%;
+}
+
+div#content {
+    padding: 50px;
+    background-color: black;
+    border: solid 1px #333333;
+    height: 80vh;
+}
+
+h1{
+  font-family: fantasy;
+  font-style: italic;
+  color: red;
+}
+h2{
+  font-family: fantasy;
+  font-style: italic;
+  color: blue;
+}
+h3{
+    font-family: fantasy;
+    font-style; italic;
+    color: Green;
+}
+h4{
+  font-family: fantasy;
+  font-style; italic;
+  color: yellow;
+}
+p{
+  font-family: fantasy, italic, Arial, "san serif";
+  color: white;
+}
+
+img {
+    float: right;
+    width: 400px;
+    height: auto;
+    border: solid 10px #333333;
+
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
