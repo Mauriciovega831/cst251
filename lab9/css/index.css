@@ -1,0 +1,52 @@
+html,body{
+    background-color: darkolivegreen;
+}
+
+div#content {
+    padding: 20px;
+    background-color: black;
+    border:dashed  50px aquamarine;
+    margin: 50px;
+}
+
+h1{
+  font-family: fantasy;
+  font-style: italic;
+  color: red;
+}
+h2{
+  font-family: fantasy;
+  font-style: italic;
+  color: blue;
+}
+h3{
+    font-family: fantasy;
+    font-style; italic;
+    color: Green;
+}
+h4{
+  font-family: fantasy;
+  font-style; italic;
+  color: yellow;
+}
+p{
+  font-family: fantasy, italic, Arial, "san serif";
+  color: white;
+}
+
+img {
+    float: right;
+    max-width: 400px;
+    height: 400px;
+    border: solid 10px #333333;
+
+}
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
