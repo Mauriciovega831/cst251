@@ -1,48 +1,32 @@
-html,body{
-    background-color: darkolivegreen;
+.wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
-.main{
-    padding: 20px;
-    background-color: black;
-    border:dashed  50px aquamarine;
-    margin: 50px;
-}
-.sidebar{
-  display:inline-block;
-  width:25%;
-  overflow:auto; 
-  min-width:300px;
-  position:sticky;
-  border:3px solid white;
-  color:white;
+.main,
+.sidebar {
+  border: 3px solid black;
+  padding: 15px;
+  background-color: #fff;
 }
 
-h1{
-  font-family: fantasy;
-  font-style: italic;
-  color: red;
-}
-h2{
-  font-family: fantasy;
-  font-style: italic;
-  color: blue;
-}
-h3{
-    font-family: fantasy;
-    font-style; italic;
-    color: Green;
-}
-h4{
-  font-family: fantasy;
-  font-style; italic;
-  color: yellow;
-}
-p{
-  font-family: fantasy, italic, Arial, "san serif";
-  color: white;
+.main {
+  width: 60%;
+  height: 150vh;
 }
 
+.sidebar {
+  width: 25%;
+  height: 25vh;
+  float: right;
+}
+
+body {
+  background-color: black;
+  font-family: sans-serif;
+  padding: 10px;
+  border:dashed  50px aquamarine;
+}
 img {
     float: right;
     max-width: 400px;
@@ -59,4 +43,9 @@ img {
     height:auto;
     display:block;
     z-index:999;
+}
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
