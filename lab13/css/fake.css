@@ -1,0 +1,87 @@
+body, #container {
+   position: relative;
+   width: 100vw;
+   max-width: 100%;
+   height: 100vh;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #0b2232;
+}
+
+  img{
+    position: absolute;
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+}
+
+@font-face {
+  font-family: "crystal-deco-italic"
+  src: url("path/Crystal Deco-FontZillion/Fonts/crystal-deco-bold-italic.otf") format("opentype");
+}
+
+#title-box {
+  position: center;   /* width: 100%; */
+  padding: 20px;   /* let's push it back */
+  z-index: 10;
+  color: #b3fbed;   /* border: solid 1px orange; */
+  overflow: hidden;
+}
+
+
+#title-box .title {
+  position: center;
+  width: 100%;
+  font-size: 5vw;
+  color: #b3fbed;
+  margin-top: 7vh;
+  font-weight: 550;
+  text-align: center;
+  font-style: italic;
+  font-family: sans-serif; "crystal-deco-italic"
+
+}
+
+#date-box {
+  text-align: center;;   /* width: 100%; */
+  padding: 0px;   /* let's push it back */
+  z-index: 10;
+  color: #cda086;   /* border: solid 1px orange; */
+  overflow: hidden;
+} #date-box .date{
+  text-align:center;
+  color: #cda086;
+  font-weight: 550;
+  text-align: center;
+  font-family: sans-serif; "crystal-deco-italic"
+}
+
+
+#button{
+  text-align: center;
+  color: #b3fbed;
+  border-radius: 3rem;
+  padding: 0px;
+  z-index: 10;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#button .button1{
+  position: absolute;
+  border-radius: 3rem;
+  border: 5px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color:#ea6360;
+  display: inline-block;
+  padding: 1rem 2rem;
+    padding-top: 0rem;
+    padding-right: 1rem;
+    padding-bottom: 0rem;
+    padding-left: 1rem;
+} 
