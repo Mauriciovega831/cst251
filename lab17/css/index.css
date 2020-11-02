@@ -31,3 +31,11 @@ section{
   border: solid;
   border-radius: 25px;
 }
+aside{
+  font-family: Helvetica, Verdana, Arial, "san serif";
+  background-color: darkgray;
+  padding: 25px;
+  font-size: 100%;
+  border: solid;
+
+}
