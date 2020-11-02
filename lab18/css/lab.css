@@ -11,6 +11,7 @@ nav{
   padding: 25px;
   font-size: 100%;
   border: solid;
+  float: left;
 }
 main{
   font-family: Helvetica, Verdana, Arial, "san serif";
@@ -26,6 +27,7 @@ footer{
   padding: 25px;
   font-size: 100%;
   border: solid;
+  float: right;
 }
 section{
   border: solid;
@@ -41,6 +43,7 @@ aside{
   font-size: 100%;
   border: solid;
 
+
 }
 .left, .right{
   float: left;
@@ -55,8 +58,11 @@ aside{
     width: 100%;
   }
 }
-.aside img{
-  max-width: 100%;
+img{
+  max-width: 50%;
   height: auto;
   border: solid;
+}
+body{
+  background: black;
 }
