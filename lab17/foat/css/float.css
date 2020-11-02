@@ -1,0 +1,35 @@
+header{
+  font-family: Helvetica, Verdana, Arial, "san serif";
+  background-color: darkgray;
+  padding: 25px;
+  border: solid;
+  font-size: 250%;
+  float: right;
+}
+nav{
+  font-family: Helvetica, Verdana, Arial, "san serif";
+  background-color: darkgray;
+  padding: 25px;
+  font-size: 100%;
+  border: solid;
+  float: left;
+}
+main{
+  font-family: Helvetica, Verdana, Arial, "san serif";
+  background-color: darkgray;
+  padding: 25px;
+  font-size: 125%;
+  border: solid;
+
+}
+footer{
+  font-family: Helvetica, Verdana, Arial, "san serif";
+  background-color: darkgray;
+  padding: 25px;
+  font-size: 100%;
+  border: solid;
+}
+section{
+  border: solid;
+  border-radius: 25px;
+}
