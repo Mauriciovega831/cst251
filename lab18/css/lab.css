@@ -58,4 +58,5 @@ aside{
 .aside img{
   max-width: 100%;
   height: auto;
+  border: solid;
 }
