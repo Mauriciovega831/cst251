@@ -1,0 +1,12 @@
+.col{
+  min-height:200px;
+  border: solid 1px black;
+}
+
+.col h1, .col h2{
+  text-align: center;
+}
+
+.row{
+  border: solid 1px gray;
+}
