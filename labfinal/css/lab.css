@@ -14,6 +14,7 @@
 }
 main {
   background-image: linear-gradient(#242424,#5c9730,purple);
+  background-blend-mode: color;
   color: white;
   font-style: helvetica;
 }
