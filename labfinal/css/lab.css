@@ -1,0 +1,177 @@
+.col {
+  min-height: 200px;
+  /* text-align: center; */
+  /* min-width: 200px; */
+}
+
+.col h1, .col h2 {
+  text-align: center;
+  font-style: helvetica;
+}
+
+.row {
+  /* padding: 10px; */
+}
+
+body {
+  background-image: linear-gradient(#242424,#5c9730,purple);
+  color: white;
+  font-style: helvetica;
+}
+#title {
+  float:right;
+  margin: 10px;
+}
+#title img{
+width: 300px;
+}
+#tv {
+  float:left;
+  margin:10px;
+}
+#tv img{
+  width: 300px
+}
+#grey {
+  float:left;
+  margin:10px;
+}
+#grey img{
+  width: 200px;
+  border: 5px solid #4b4e6d;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px #84dcc6;
+}
+#grey img:hover{
+  width: 325px;
+}
+#cloud{
+  float:left;
+  margin:10px;
+}
+#cloud img{
+  width: 200px;
+  border: 5px solid #4b4e6d;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px #84dcc6;
+}
+#cloud img:hover{
+  width:325px;
+}
+#shame {
+  float:left;
+  margin:10px;
+}
+#shame img{
+  width: 200px;
+  border: 5px solid #4b4e6d;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px #84dcc6;
+}
+#shame img:hover{
+  width: 325px;
+}
+#bee {
+  float:left;
+  margin:10px;
+}
+#bee img{
+  width:200px;
+  border: 5px solid #4b4e6d;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px #84dcc6;
+}
+#bee img:hover{
+  width: 325px;
+}
+#dragon{
+  float:left;
+  margin:10px;
+}
+#dragon img{
+  width:200px;
+  border: 5px solid #4b4e6d;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px #84dcc6;
+}
+#dragon img:hover{
+  width: 325px;
+}
+#spider{
+  float:left;
+  margin:10px;
+}
+#spider img{
+  width:200px;
+  border: 5px solid #4b4e6d;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px #84dcc6;
+}
+#spider img:hover{
+  width:325px;
+}
+#super {
+  float:right;
+  margin:10px;
+}
+#super img{
+  width:200px;
+  border: 5px solid #4b4e6d;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px #84dcc6;
+}
+#super img:hover{
+  width:325px;
+}
+#attack {
+  float:right;
+  margin:10px;
+}
+#attack img{
+  width:200px;
+  border: 5px solid #4b4e6d;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px #84dcc6;
+}
+#attack img:hover{
+  width:325px;
+}
+#naruto {
+  float:right;
+  margin:10px;
+}
+#naruto img{
+  width:200px;
+  border: 5px solid #4b4e6d;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px #84dcc6;
+}
+#naruto img:hover{
+  width:325px;
+}
+#myhero {
+  float:right;
+  margin:10px;
+}
+#myhero img{
+  width:200px;
+  border: 5px solid #4b4e6d;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px #84dcc6;
+}
+#myhero img:hover{
+  width:325px;
+}
+#one {
+  float: right;
+  margin:10px;
+}
+#one img{
+  width:200px;
+  border: 5px solid #4b4e6d;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px #84dcc6;
+}
+#one img:hover{
+  width: 325px;
+}
